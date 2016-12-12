@@ -1,0 +1,77 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+background: brown;
+  height: 100%;
+}
+button{
+   background: #000000;
+   color:#fff;
+   width:90px;
+   height:40px;
+   border: 2px solid #7c7c7c;
+   font-size: 14px;
+   display: block;
+   float:left;
+}
+#putHero{
+   width:180px;
+   height:50px;
+}
+#buttons{
+   width:180px;
+   height: 250px;
+   border: 1px solid #fff;
+   position: relative;
+}
+#heroes{
+   width:100px;
+   height:316px;
+/*  margin-top:-250px;*/
+   background: #000000;
+   display: none;
+   position: absolute;
+   
+}
+#heroes>div{
+   width:98px;
+   height: 77px;
+   float: left;
+   border:1px solid #fff;
+   
+}
+
+#img{
+   margin-top:50px;
+   margin-left: 600px;
+   width: 100px;
+   height:100px;
+   
+}
+
+/*
+#buttons::clear,
+#buttons::after{
+   content:".";
+   display: block;
+   clear: both;
+   height: 0;
+   
+}
+*/
+
+
+
+/*
+#heroes::before,
+#heroes::after{
+   content:".";
+   display: block;
+   clear: both;
+   height: 0;
+   
+}
+*/
